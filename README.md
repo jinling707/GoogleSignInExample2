@@ -1,5 +1,5 @@
 ### 簡介
-Google API 實現登入功能
+Google API 實現登入功能(雙頁:登入後進入另一個Activity顯示資料)
 
 將 Google 登錄機制加入的應用中，讓用戶可使用自己的 Google 帳號進行 Firebase 身份驗證
 
