@@ -16,7 +16,7 @@ Google API 實現登入功能
 點開後將專案將專案與Firebase進行連結
 不需要事先到Firebase中開啟新專案，直接在以下步驟中創建(Connect your app to Firebase)並連結(Add Firebase Authentication to your app)即可
 
-<img src="/README_IMG/Android Google 登入1.png" width="550px" />
+<img src="/README_IMG/Android Google 登入1.png" width="420px" />
 
 接著到自己的Firebase中的控制台 https://console.firebase.google.com/u/3/ 點選剛剛創建的專案
 <img src="/README_IMG/Android Google 登入2.png" width="1057px" />
@@ -35,11 +35,11 @@ Google API 實現登入功能
 <img src="/README_IMG/Android Google 登入6.png" width="1057px" />
 
 將google-services.json檔放入android專案中的app
-<img src="/README_IMG/Android Google 登入7.png" width="550px" />
+<img src="/README_IMG/Android Google 登入7.png" width="391px" />
 
 註:官方教學文件可以點選android studio的連結進去 https://firebase.google.com/docs/auth/android/google-signin?utm_source=studio
 
-<img src="/README_IMG/Android Google 登入8.png" width="900" />
+<img src="/README_IMG/Android Google 登入8.png" width="720" />
 
 ### android studio gradle設定
 build.gradle(Project)  加入   classpath 'com.google.gms:google-services:4.2.0' 
