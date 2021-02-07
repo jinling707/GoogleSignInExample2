@@ -11,6 +11,7 @@ Google API 實現登入功能
 
 ### 專案與Firebase的連接
 開啟新專案，點選Tool->Firebase,待跳出右邊視窗後，選Authentication->Email and password authentication
+
 <img src="/README_IMG/Android Google 登入0.png" width="1057px" />
 
 點開後將專案將專案與Firebase進行連結
@@ -19,22 +20,28 @@ Google API 實現登入功能
 <img src="/README_IMG/Android Google 登入1.png" width="420px" />
 
 接著到自己的Firebase中的控制台 https://console.firebase.google.com/u/3/ 點選剛剛創建的專案
+
 <img src="/README_IMG/Android Google 登入2.png" width="1057px" />
 
 接著從旁邊的authentication中進入開啟Google登入
+
 <img src="/README_IMG/Android Google 登入3.png" width="1057px" />
 
 再回到Android Studio 點選右邊的 gradle->點開專案->Task->android->signingReport便可以看到SHA1和SHA-256，等等需要將其加入Firebase的專案中
 (執行APP時，記得將上面的模式調回app才可以執行)
+
 <img src="/README_IMG/Android Google 登入4.png" width="1057px" />
 
 到Firebase的專案總攬->專案設定
+
 <img src="/README_IMG/Android Google 登入5.png" width="1057px" />
 
 在專案設定中的一般設定裡，將剛剛的SHA1和SHA-256新增上去，設定好後，下載google-services.json檔
+
 <img src="/README_IMG/Android Google 登入6.png" width="1057px" />
 
 將google-services.json檔放入android專案中的app
+
 <img src="/README_IMG/Android Google 登入7.png" width="391px" />
 
 註:官方教學文件可以點選android studio的連結進去 https://firebase.google.com/docs/auth/android/google-signin?utm_source=studio
